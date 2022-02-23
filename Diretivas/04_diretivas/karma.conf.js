@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/loiane-angular'),
+      dir: require('path').join(__dirname, './coverage/04_diretivas'),
       subdir: '.',
       reporters: [
         { type: 'html' },
